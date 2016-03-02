@@ -1,0 +1,44 @@
+.centerpiece {
+  margin: 0 auto;
+  border: dotted 1px black;
+  width: 30%;
+  top: 50%;
+}
+
+.googlelogo {
+  width: 300px;
+  height: 100px;
+}
+
+#logo {
+  height: 200px;
+  width: 300px;
+}
+
+input[type=text]{
+  position: absolute;
+  margin: 0 auto;
+  width: 50%;
+  height: 20px;
+  margin-left: -10%;
+  max-width: 1000px;
+}
+
+
+.header{
+  border: dotted 1px orange;
+  position: absolute;
+  top: 0px;
+  margin-left: -10px;
+  width: 100%;
+}
+
+.footer{
+  border: dotted 1px orange;
+  position: absolute;
+
+  bottom: 0px;
+  width: 100%;
+  margin-left: -10px;
+  min-width: 50%;
+}
