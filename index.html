@@ -9,16 +9,18 @@
     <div class="header">
     <a href="http://www.google.com">Gmail</a>
     <a href="http://www.google.com">Images</a>
-    <div class="signin">
-      Sign in
-    </div>
+    <form class="signin">
+      <input type="submit" value="Sign in">
+    </form>
     </div>
     <div class="centerpiece">
       <div id="googlelogo"><img id="logo" src="http://cdni.wired.co.uk/1920x1280/g_j/GOOGLELOGO_1.jpg" /></div>
       <form>
         <input type="text" name="query"><br>
-        <input type="submit" value="Google Search"><br>
-        <input type="submit" value="I'm Feeling Lucky"><br>
+        <ul>
+          <li><input type="submit" value="Google Search" class="googlesearch"></li>
+          <li><input type="submit" value="I'm Feeling Lucky" class="feelinglucky"></li>
+        </ul>
       </form>
     </div>
     <div class="footer">

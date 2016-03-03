@@ -1,6 +1,9 @@
+body {
+  font-family: Calibri;
+}
+
 .centerpiece {
   margin: 0 auto;
-  border: dotted 1px black;
   width: 30%;
   top: 10em;
   position: relative;
@@ -50,7 +53,12 @@ input[type=text]{
   min-width: 50%;
 }
 
-input[type=submit] {
+form ul li{
+  display: inline;
+  list-style-type: none;
+}
+
+.googlesearch, .feelinglucky{
     border-radius: 5px;
     border: 0;
     width: 200px;
@@ -58,11 +66,23 @@ input[type=submit] {
     font-family: Calibri;
     font-size: 1em;
     background: #f4f4f4;
-    display: inline;
+    display: inline-block;
 }
 
-.footer ul {
-  display: inline;
+.footer ul li{
+  display: inline-block;
   list-style-type: none;
+  position: relative;
+}
+
+.signin input[type=submit]{
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  background-color: #6280E2;
+  border-radius: 5px;
+  font-weight:bold;
+  float: right;
+  margin-right: 1%;
   position: relative;
 }
