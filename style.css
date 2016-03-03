@@ -2,7 +2,9 @@
   margin: 0 auto;
   border: dotted 1px black;
   width: 30%;
-  top: 50%;
+  top: 10em;
+  position: relative;
+  min-width: 500px;
 }
 
 .googlelogo {
@@ -13,15 +15,20 @@
 #logo {
   height: 200px;
   width: 300px;
+  margin-left: 20%;
+  margin-right: 15%;
 }
+
 
 input[type=text]{
   position: absolute;
   margin: 0 auto;
-  width: 50%;
-  height: 20px;
+  width: 120%;
+  height: 25px;
   margin-left: -10%;
-  max-width: 1000px;
+  max-width: 600px;
+  top: 60%;
+  display: block;
 }
 
 
@@ -31,14 +38,31 @@ input[type=text]{
   top: 0px;
   margin-left: -10px;
   width: 100%;
+  display: inline;
 }
 
 .footer{
   border: dotted 1px orange;
   position: absolute;
-
   bottom: 0px;
   width: 100%;
   margin-left: -10px;
   min-width: 50%;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 200px;
+    height:40px;
+    font-family: Calibri;
+    font-size: 1em;
+    background: #f4f4f4;
+    display: inline;
+}
+
+.footer ul {
+  display: inline;
+  list-style-type: none;
+  position: relative;
 }
