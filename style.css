@@ -61,6 +61,26 @@ input[type=text]{
 .header ul li{
 	display: inline-block;
 }
+
+.signin {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  background-color: #6280E2;
+  border-radius: 5px;
+  margin-right: 20px;
+  position: relative;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.signin a{
+	vertical-align: middle;
+	text-decoration: none;
+	cursor: default;
+	margin: 0;
+	color: white;
+}
+
 .footer{
   border: dotted 1px orange;
   position: absolute;
@@ -76,14 +96,20 @@ form ul li{
 }
 
 .googlesearch, .feelinglucky{
-    border-radius: 5px;
+    border-radius: 2px;
     border: 0;
     width: 150px;
     height:40px;
     font-family: Calibri;
+	color: #444A4D; 
     font-size: 1em;
     background: #f4f4f4;
     display: inline-block;
+}
+
+.googlesearch:hover, .feelinglucky:hover{
+	color: black;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
 }
 
 .footer ul li{
@@ -92,21 +118,4 @@ form ul li{
   position: relative;
 }
 
-.signin {
-  width: 70px;
-  height: 30px;
-  text-align: center;
-  background-color: #6280E2;
-  border-radius: 5px;
-  font-weight:bold;
-  margin-right: 1%;
-  position: relative;
- 
-}
 
-.signin a{
-	vertical-align: middle;
-	text-decoration: none;
-	cursor: default;
-	margin: 0;
-}
