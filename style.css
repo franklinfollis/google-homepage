@@ -1,5 +1,6 @@
 body {
-  font-family: Calibri;
+  font-family: Tahoma, sans-serif;
+  font-size: 0.9em;
 }
 
 a{
@@ -100,8 +101,7 @@ form ul li{
     border: 0;
     width: 150px;
     height:40px;
-    font-family: Calibri;
-	color: #444A4D; 
+    color: #444A4D;
     font-size: 1em;
     background: #f4f4f4;
     display: inline-block;
@@ -117,5 +117,3 @@ form ul li{
   list-style-type: none;
   position: relative;
 }
-
-
