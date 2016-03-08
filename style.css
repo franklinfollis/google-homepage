@@ -47,12 +47,12 @@ input[type=text]{
 
 
 .header{
-  border: dotted 1px orange;
   position: absolute;
   top: 0px;
   margin-left: -10px;
   width: 100%;
   display: inline;
+  min-width: 600px;
 }
 
 .header ul{
@@ -68,17 +68,20 @@ input[type=text]{
   height: 30px;
   text-align: center;
   background-color: #6280E2;
-  border-radius: 5px;
-  top: -6px;
-  margin-right: 20px;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2%;
   position: relative;
+  cursor: default;
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
 }
 
-.signin a{
+.signin p{
 	text-decoration: none;
+  font-weight: bold;
 	cursor: default;
-  margin: 0 auto;
+  margin: 5px auto;
 	color: white;
 }
 
@@ -89,7 +92,7 @@ input[type=text]{
   bottom: 0px;
   width: 100%;
   margin-left: -10px;
-  min-width: 50%;
+  min-width: 600px;
 }
 
 form ul li{
