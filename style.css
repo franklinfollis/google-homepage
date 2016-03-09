@@ -1,6 +1,6 @@
 body {
-  font-family: Tahoma, sans-serif;
-  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
 }
 
 a{
@@ -57,6 +57,7 @@ input[type=text]{
 
 .header ul{
 	float: right;
+  margin-right: 2%;
 }
 
 .header ul li{
@@ -65,9 +66,9 @@ input[type=text]{
 
 .signin {
   width: 70px;
-  height: 30px;
+  height: 28px;
   text-align: center;
-  background-color: #6280E2;
+  background-color: #4387fd;
   border-radius: 3px;
   display: inline-block;
   vertical-align: middle;
@@ -78,10 +79,9 @@ input[type=text]{
 }
 
 .signin p{
-	text-decoration: none;
-  font-weight: bold;
 	cursor: default;
   margin: 5px auto;
+  font-weight: bold;
 	color: white;
 }
 
@@ -120,6 +120,7 @@ form ul li{
   display: inline-block;
   list-style-type: none;
   position: relative;
+  padding-left: 25px;
 }
 
 .Rfooter, .Lfooter {
