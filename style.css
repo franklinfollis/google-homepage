@@ -51,6 +51,11 @@ input[type=text]:hover{
   border: solid 1px #b3b3b3;
 }
 
+input[type=text]:focus{
+  margin-top: -1px;
+  border: solid 1px #66b3ff;
+}
+
 .header{
   position: absolute;
   margin-left: -10px;
@@ -112,6 +117,7 @@ form ul li{
     font-size: 1em;
     background: #f4f4f4;
     display: inline-block;
+    font-weight: bold;
 }
 
 .googlesearch:hover, .feelinglucky:hover{
@@ -123,7 +129,7 @@ form ul li{
   display: inline-block;
   list-style-type: none;
   position: relative;
-  padding-left: 25px;
+  padding: 0 15px 0 15px;
 }
 
 .Rfooter, .Lfooter {
