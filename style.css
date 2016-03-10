@@ -18,7 +18,7 @@ a:hover {
   width: 30%;
   top: 10em;
   position: relative;
-  : 500px;
+  min-width: 500px;
 }
 
 .googlelogo {
@@ -60,7 +60,7 @@ input[type=text]:focus{
   margin-left: -10px;
   width: 100%;
   display: inline;
-  : 1000px;
+  min-width: 1000px;
 }
 
 .header ul{
@@ -99,7 +99,7 @@ input[type=text]:focus{
   bottom: 0px;
   width: 100%;
   margin-left: -10px;
-  : 1000px;*
+  min-width: 1000px;
 }
 
 form ul li{
@@ -121,7 +121,6 @@ form ul li{
 }
 
 .googlesearch{
-  position: relative;
    margin-left: 10%;
 }
 .googlesearch:hover, .feelinglucky:hover{
