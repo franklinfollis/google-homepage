@@ -19,6 +19,7 @@ a:hover {
   top: 10em;
   position: relative;
   min-width: 500px;
+  border: 1px dotted black;
 }
 
 .googlelogo {
@@ -31,6 +32,7 @@ a:hover {
   width: 300px;
   margin-left: 20%;
   margin-right: 15%;
+  border: 1px dotted black;
 }
 
 
@@ -100,7 +102,7 @@ input[type=text]:focus{
   bottom: 0px;
   width: 100%;
   margin-left: -10px;
-  min-width: 1000px;
+  min-width: 1000px;*
 }
 
 form ul li{
@@ -115,11 +117,16 @@ form ul li{
     height:40px;
     color: #444A4D;
     font-size: 1em;
-    background: #f4f4f4;
+    background: #f2f2f2;
     display: inline-block;
     font-weight: bold;
+    margin-left: 5px;
 }
 
+.googlesearch{
+  position: relative;
+   margin-left: 13%;
+}
 .googlesearch:hover, .feelinglucky:hover{
 	color: black;
 	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
@@ -137,6 +144,7 @@ form ul li{
     margin-left: 2%;
     padding: 0;
 }
+
 .Rfooter {
   float: right;
 }
