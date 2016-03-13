@@ -112,7 +112,7 @@ form ul li{
     border: 0;
     width: 150px;
     height:40px;
-    color: #444A4D;
+    color: #808080;
     font-size: 1em;
     background: #f2f2f2;
     display: inline-block;
@@ -123,9 +123,12 @@ form ul li{
 .googlesearch{
    margin-left: 10%;
 }
+
 .googlesearch:hover, .feelinglucky:hover{
 	color: black;
-	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+  border: solid 1px #d9d9d9;
+  background: linear-gradient(#f2f2f2, #e6e6e6);
+	box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.3);
 }
 
 .footer ul li{
